@@ -1,0 +1,16 @@
+@import "./vendors/normalize";
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./utils/functions";
+@import "./base/typography";
+@import "./base/reset";
+@import "./components/buttons";
+@import "./layout/footer";
+@import "./layout/forms";
+@import "./layout/header";
+@import "./pages/home";
+
+body{
+   background-color: rgb(0, 0, 0);
+   color: #ffffff;
+}
