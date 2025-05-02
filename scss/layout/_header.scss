@@ -1,0 +1,65 @@
+        .header {
+            background-color: #F6F6F6;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 1440px;
+            height: 105px;
+
+        }
+        .navbar {
+            display: flex;
+            color: #1da1f2;
+            font-weight: bold;
+        }
+        .currency-course {
+            display: flex;
+            gap: 5px;
+        }
+        .currency {
+            font-size: 14px;
+        }
+        .symbol {
+            font-size: 14px;
+            color: #666;
+        }
+        .currency-symbol {
+            font-size: 14px;
+            color: #1da1f2;
+        }
+        .search-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background-color: #fff;
+            border-radius: 20px;
+            padding: 5px 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .search-input {
+            border: none;
+            background: none;
+            outline: none;
+            font-size: 14px;
+            width: 150px;
+        }
+        .radio-btn {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 14px;
+            color: #666;
+        }
+        .submit-btn {
+            background-color: #1da1f2;
+            color: white;
+            border: none;
+            padding: 5px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s;
+        }
+        .submit-btn:hover {
+            background-color: #0d8ecf;
+        }

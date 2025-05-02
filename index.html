@@ -3,11 +3,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SCSS</title>
+    <title>NAMANGANLIKLAR</title>
     <link rel="stylesheet" href="./scss/styles.scss">
     <link rel="stylesheet" href="./css/styles.min.css">
 </head>
 <body>
-    <h1>Body</h1>
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="logo"><a href="#"><img src="./img/NAMANGANLIKLAR 24.svg" alt=""></a></div>
+                <div class="currency-info">
+                    <span class="currency">$ 10137.2</span>
+                    <span class="currency">₽ 138.26</span>
+                </div>
+                <div class="search-login">
+                    <div class="search-container">
+                        <input type="text" placeholder="Поиск" class="search-input">
+                    </div>
+                    <button>
+                    </button>
+                    <div class="language-selector">
+                        <span>UZ</span>
+                        <span class="active">РУ</span>
+                    </div>
+                    <button class="login-button">Войти</button>
+                </div>
+            </div>
+        </div>
+        <nav class="main-nav">
+        </nav>
+    </header>
+    <div class="container">
+        <ul class="nav-list">
+            <li class="nav-item active"><a href="#">Главное</a></li>
+            <li class="nav-item"><a href="#">Интересное</a></li>
+            <li class="nav-item"><a href="#">Экономика</a></li>
+            <li class="nav-item"><a href="#">Политика</a></li>
+            <li class="nav-item"><a href="#">Общество</a></li>
+            <li class="nav-item"><a href="#">Технологии</a></li>
+            <li class="nav-item"><a href="#">Спорт</a></li>
+            <li class="nav-item"><a href="#">Культура</a></li>
+            <li class="nav-item"><a href="#">Происшествия</a></li>
+            <li class="nav-item"><a href="#">Наука</a></li>
+        </ul>
+    </div>
+    <hr style="opacity: 30%;">
+
+    <div class="container">
+        <div class="banner">
+            <img src="./img/optimize 1.png" alt="Advertisement Banner" class="banner-img">
+        </div>
+
+        <div class="news-grid">
+            <!-- News Item 1 -->
+            <div class="news-item">
+                <div class="news-content">
+                    <h2 class="news-title">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</h2>
+                    <p class="news-excerpt">Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
+                </div>
+                <div class="news-image">
+                    <img src="./img/germanyflag.png" alt="News Image"
+                    width="350"
+                    height="160"
+                    >
+                </div>
+                <div class="news-source">
+                    <span class="source-icon">ИА</span>
+                    <span class="source-name">Красная Весна</span>
+                    <span class="news-time">15:55</span>
+                </div>
+            </div>
+
+            <!-- News Item 2 -->
+            <div class="news-item">
+                <div class="news-content">
+                    <h2 class="news-title">Ученые доказали экспериментальным путем пользу покровных культур</h2>
+                    <p class="news-excerpt">Новое исследование ученых университета Иллинойса объединяет полевые данные...</p>
+                </div>
+                <div class="news-image">
+                    <img src="./img/bride.png" alt="News Image"
+                    width="350"
+                    height="160">
+                </div>
+                <div class="news-source">
+                    <span class="source-icon">Г</span>
+                    <span class="source-name">Газета.Ru</span>
+                    <span class="news-time">12:54</span>
+                </div>
+            </div>
+
+            <!-- News Item 3 -->
+            <div class="news-item">
+                <div class="news-content">
+                    <h2 class="news-title">Baidu запустила публичный сервис роботакси Apollo Go в Шанхае</h2>
+                    <p class="news-excerpt">Автопарк Baidu состоит из модифицированных электромобилей EV...</p>
+                </div>
+                <div class="news-image">
+                    <img src="img/apollotaxi.png" alt="News Image"
+                    width="350"
+                    height="160">
+                </div>
+                <div class="news-source">
+                    <span class="source-icon">Х</span>
+                    <span class="source-name">Хайтек+</span>
+                    <span class="news-time">13:44</span>
+                </div>
+            </div>
+
+            <!-- News Item 4 -->
+            <div class="news-item">
+                <div class="news-content">
+                    <h2 class="news-title">Стали известны ёмкости аккумуляторов всех моделей iPhone 13</h2>
+                    <p class="news-excerpt">Во время презентации iPhone 13 Apple придала большое значения...</p>
+                </div>
+                <div class="news-image">
+                    <img src="./img/iphone13.png" alt="News Image"
+                    width="350"
+                    height="160">
+                </div>
+                <div class="news-source">
+                    <span class="source-icon">Д</span>
+                    <span class="source-name">Digger.ru</span>
+                    <span class="news-time">14:25</span>
+                </div>
+            </div>
+
+            <!-- News Item 5 -->
+            <div class="news-item">
+                <div class="news-content">
+                    <h2 class="news-title">Nature: ученые смогли доказать природное происхождение коронавируса SARS-CoV-2</h2>
+                    <p class="news-excerpt">Во время презентации iPhone 13 Apple придала большое значение...</p>
+                </div>
+                <div class="news-image">
+                    <img src="./img/doctors.png" alt="News Image"
+                    width="350"
+                    height="160">
+                </div>
+                <div class="news-source">
+                    <span class="source-icon">Л</span>
+                    <span class="source-name">Lenta.ru</span>
+                    <span class="news-time">10:54</span>
+                </div>
+            </div>
+
+            <!-- News Item 6 -->
+            <div class="news-item">
+                <div class="news-content">
+                    <h2 class="news-title">Китайская марка JAC повысила цены на лифтбек и пикап в России</h2>
+                    <p class="news-excerpt">Две модели китайского бренда JAC из пяти, представленных на российском...</p>
+                </div>
+                <div class="news-image">
+                    <img src="./img/jacmotors.png" alt="News Image"
+                    width="350"
+                    height="160">
+                </div>
+                <div class="news-source">
+                    <span class="source-icon">Т</span>
+                    <span class="source-name">Тарантас Ньюс</span>
+                    <span class="news-time">10:44</span>
+                </div>
+            </div>
+        </div>
+        <div class="advertisement-banner">
+            <h3 class="advertisement-banner-title">Хотите быть в курсе свежих новостей? <br>
+                 Включите уведомления!
+            </h3>
+            <button class="advertisement-btn">Включит</button>
+        </div>
+    </div>
 </body>
 </html>
